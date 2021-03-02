@@ -70,22 +70,21 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
  * https://github.com/woocommerce/theme-customisations
  */
 
-function register_script() {
+//function register_script() {
+//
+//	wp_enqueue_script( 'task-ajax', get_template_directory_uri() . '/ajax.js', array( 'jquery' ) );
+//	wp_localize_script( 'task-ajax', 'tasksLocalized', array( 'Ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
+//}
+//
+//add_action( 'wp_enqueue_scripts', 'register_script' );
+/**
+ * Task 1
+ */
+//include 'task1.php';
+//$task = new Task1();
+/**
+ * Task 2
+ */
+include "Variation.php";
+$task2=new Variation();
 
-	wp_enqueue_script( 'task-ajax', get_template_directory_uri() . '/ajax.js', array( 'jquery' ) );
-	wp_localize_script( 'task-ajax', 'tasksLocalized', array( 'Ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
-}
-
-add_action( 'wp_enqueue_scripts', 'register_script' );
-
-include 'task1.php';
-//include 'ajax.php';
-
-$task = new Task1();
-
-
-
-//echo "<pre>";
-//var_dump(wp_schedule_event(time(), 11, 'fac_cache_clear'));
-//var_dump(wp_get_schedules());
-//echo "</pre>";
