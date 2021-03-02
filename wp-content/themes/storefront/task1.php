@@ -9,8 +9,7 @@ class Task1 {
 		add_action( 'rest_api_init', array( $this, 'add_custom_fields' ) );
 //		add_action( 'woocommerce_before_single_product_summary', array( $this, 'send_mail' ) );
 		add_action( 'wp_ajax_meta_ajax_request', array( $this, 'update' ) );
-		add_action( 'wp_ajax_nopriv_meta_ajax_request', array( $this, 'update' ) );
-
+		add_action( 'wp_ajax_nopriv_meta_ajax_request', array( $this, 'update' ) );S
 
 		//Cron
 		add_filter( 'cron_schedules', array( $this, 'custom_cron' ) );
@@ -27,7 +26,7 @@ class Task1 {
 		$this->log_file=$_SERVER['DOCUMENT_ROOT'] . '/wp1/wp-content/themes/storefront/cron-info/info.txt';
 	}
 
-	//Function add custom meta field interested on products
+	//Function add custom meta field interested on products test
 
 	function add_custom_fields() {
 		register_rest_field(
