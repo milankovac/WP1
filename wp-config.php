@@ -78,8 +78,8 @@ $table_prefix = 'wp_';
  * @link https://wordpress.org/support/article/debugging-in-wordpress/
  */
 define( 'WP_DEBUG', false );
-define('ALTERNATE_WP_CRON', true);
-define('DISABLE_WP_CRON', false);
+
+//define('DISABLE_WP_CRON', false);
 /* That's all, stop editing! Happy publishing. */
 
 /** Absolute path to the WordPress directory. */
