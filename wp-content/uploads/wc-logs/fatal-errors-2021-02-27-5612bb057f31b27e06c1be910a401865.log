@@ -1,0 +1,291 @@
+2021-02-27T08:46:47+00:00 CRITICAL Uncaught Error: Call to undefined method Task1::if_not_in_stockk() in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\content-single-product.php:51
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\template.php(732): require()
+#1 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#2 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#3 C:\xampp\htdocs\wp1\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(19): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\content-single-product.php on line 51
+
+2021-02-27T09:26:00+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 43
+
+2021-02-27T09:28:01+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 43
+
+2021-02-27T09:35:55+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 49
+
+2021-02-27T09:46:47+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 51
+
+2021-02-27T09:51:23+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 47
+
+2021-02-27T18:06:39+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 76
+
+2021-02-27T18:06:54+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 76
+
+2021-02-27T18:07:31+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 76
+
+2021-02-27T18:10:56+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 77
+
+2021-02-27T18:17:38+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-includes\functions.wp-scripts.php on line 42
+
+2021-02-27T18:18:22+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-includes\class.wp-dependencies.php on line 256
+
+2021-02-27T19:04:56+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-includes\link-template.php on line 3434
+
+2021-02-27T19:05:03+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-includes\plugin.php on line 198
+
+2021-02-27T19:05:53+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-includes\plugin.php on line 198
+
+2021-02-27T19:18:14+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 75
+
+2021-02-27T19:28:07+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 80
+
+2021-02-27T20:48:10+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T20:48:18+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T20:48:22+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T20:49:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T20:49:45+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T20:50:24+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T20:51:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T20:52:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T20:52:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T20:53:31+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(184): do_action('wp_ajax_meta_aj...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T20:56:01+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(184): do_action('wp_ajax_meta_aj...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T20:59:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T21:00:03+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T21:03:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T21:03:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T21:03:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T21:03:47+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T21:03:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T21:03:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T21:03:48+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T21:05:38+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T21:06:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function Task1::update_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php on line 9 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\ajax.php(9): Task1->update_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): update('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(199): do_action('wp_ajax_nopriv_...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\task1.php on line 23
+
+2021-02-27T21:50:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\content-single-product.php on line 55
+
+2021-02-27T21:51:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\content-single-product.php on line 55
+
+2021-02-27T21:51:49+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\content-single-product.php on line 55
+
+2021-02-27T21:53:14+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\content-single-product.php on line 98
+
+2021-02-27T22:05:36+00:00 CRITICAL syntax error, unexpected 'new' (T_NEW) in C:\xampp\htdocs\wp1\wp-content\themes\storefront\send_mail.php on line 11
+
+2021-02-27T22:26:33+00:00 CRITICAL Cannot redeclare time() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\send_mail.php on line 9
+
+2021-02-27T22:31:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-content\themes\storefront\send_mail.php on line 14
+
+2021-02-27T22:31:24+00:00 CRITICAL Uncaught Error: Call to undefined function callYourFunction() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\send_mail.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(83): include()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(90): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\send_mail.php on line 15
+
+2021-02-27T22:31:26+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-content\themes\storefront\send_mail.php on line 14
+
+2021-02-27T22:31:48+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-content\themes\storefront\send_mail.php on line 14
+
