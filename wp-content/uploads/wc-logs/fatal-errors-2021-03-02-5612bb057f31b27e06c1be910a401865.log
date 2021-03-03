@@ -1,0 +1,129 @@
+2021-03-02T12:50:08+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 110
+
+2021-03-02T12:50:21+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 110
+
+2021-03-02T12:53:04+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or '{' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\NewVariation.php on line 28
+
+2021-03-02T12:57:23+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function NewVaration::add_custom_variation_rgb(), 1 passed in C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\NewVariation.php:27
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): NewVaration->add_custom_variation_rgb(0)
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-variation-admin.php(457): do_action('woocommerce_pro...', 0, Array, Object(WP_Post))
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(2111): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): WC_AJAX::load_variations('')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', A in C:\xampp\htdocs\wp1\wp-content\themes\storefront\NewVariation.php on line 27
+
+2021-03-02T12:58:17+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function NewVaration::add_custom_variation_rgb(), 1 passed in C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\NewVariation.php:27
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): NewVaration->add_custom_variation_rgb(0)
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-variation-admin.php(457): do_action('woocommerce_pro...', 0, Array, Object(WP_Post))
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(2111): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): WC_AJAX::load_variations('')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', A in C:\xampp\htdocs\wp1\wp-content\themes\storefront\NewVariation.php on line 27
+
+2021-03-02T12:58:56+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\NewVariation.php on line 43
+
+2021-03-02T12:58:58+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\NewVariation.php on line 43
+
+2021-03-02T12:58:58+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\NewVariation.php on line 43
+
+2021-03-02T12:59:16+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function NewVaration::add_custom_variation_rgb(), 1 passed in C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\NewVariation.php:28
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): NewVaration->add_custom_variation_rgb(0)
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-variation-admin.php(457): do_action('woocommerce_pro...', 0, Array, Object(WP_Post))
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(2111): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): WC_AJAX::load_variations('')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', A in C:\xampp\htdocs\wp1\wp-content\themes\storefront\NewVariation.php on line 28
+
+2021-03-02T13:00:53+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function NewVaration::add_custom_variation_rgb(), 1 passed in C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php on line 289 and exactly 3 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\NewVariation.php:29
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): NewVaration->add_custom_variation_rgb(0)
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-variation-admin.php(457): do_action('woocommerce_pro...', 0, Array, Object(WP_Post))
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(2111): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): WC_AJAX::load_variations('')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', A in C:\xampp\htdocs\wp1\wp-content\themes\storefront\NewVariation.php on line 29
+
+2021-03-02T13:05:14+00:00 CRITICAL Uncaught Error: Class 'Varation' not found in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php:89
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-settings.php(525): include()
+#1 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 89
+
+2021-03-02T13:41:31+00:00 CRITICAL Uncaught Error: Call to undefined function get_product_meta() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php:25
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): Variation->variation_settings_fields(0, Array, Object(WP_Post))
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-variation-admin.php(457): do_action('woocommerce_pro...', 0, Array, Object(WP_Post))
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-ajax.php(2111): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): WC_AJAX::load_variations('')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#7 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wp1\wp-admin in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 25
+
+2021-03-02T13:56:04+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 43
+
+2021-03-02T13:57:13+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 47
+
+2021-03-02T13:57:14+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 47
+
+2021-03-02T13:57:15+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 47
+
+2021-03-02T14:18:05+00:00 CRITICAL syntax error, unexpected '{', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 45
+
+2021-03-02T14:23:03+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::is_tyoe() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php:48
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): Variation->display_variation('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\content-single-product.php(67): do_action('woocommerce_sin...')
+#4 C:\xampp\htdocs\wp1\wp-includes\template.php(732): require('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\xampp\\htdocs...', false)
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product.php(37): wc_get_template_part('content', 'single-product')
+#7 C:\xampp\htdocs\wp1\wp-includes\template-loader.php(106): include('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wp1\w in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 48
+
+2021-03-02T14:42:14+00:00 CRITICAL Uncaught Error: Call to undefined function get_available_variations() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php:50
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): Variation->display_variation('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(15): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2976): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_single_variation_add_to_cart_button('')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filter in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 50
+
+2021-03-02T15:21:38+00:00 CRITICAL Uncaught Error: Call to undefined function gwp_get_post_parent_id() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php:48
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): Variation->display('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(15): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2976): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_single_variation_add_to_cart_button('')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Arra in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 48
+
+2021-03-02T15:21:52+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_get_post_parent_id(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 48 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-includes\post.php:7214
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php(48): wp_get_post_parent_id()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): Variation->display('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(15): do_action('woocommerce_bef...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2976): wc_get_template('single-product/...')
+#7  in C:\xampp\htdocs\wp1\wp-includes\post.php on line 7214
+
