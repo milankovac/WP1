@@ -11,13 +11,13 @@ class Variation {
 	 * When an object is created, actions are added
 	 */
 
-	function Variation() {
+	public function __construct() {
 		add_action( 'woocommerce_product_after_variable_attributes', array(
 			$this,
-			'variation_settings_fields_rgb'
+			'variation_settings_fields'
 		), 10, 3 );
 
-		add_action( 'woocommerce_save_product_variation', array( $this, 'save_variation_settings_fields_rgb' ), 10, 2 );
+		add_action( 'woocommerce_save_product_variation', array( $this, 'save_variation_settings_fields' ), 10, 2 );
 	}
 
 	/**
@@ -28,7 +28,7 @@ class Variation {
 	 * @param $variation object variation
 	 */
 
-	public function variation_settings_fields_rgb( $loop, $variation_data, $variation ) {
+	public function variation_settings_fields( $loop, $variation_data, $variation ) {
 		woocommerce_wp_text_input(
 			array(
 				'id'          => '_text_field_rgb[' . $variation->ID . ']',
@@ -56,7 +56,7 @@ class Variation {
 	 * @param $post_id int
 	 */
 
-	public function save_variation_settings_fields_rgb( $post_id ) {
+	public function save_variation_settings_fields( $post_id ) {
 		$text_field_rgb = $_POST['_text_field_rgb'][ $post_id ];
 		if ( ! empty( $text_field_rgb ) ) {
 			update_post_meta( $post_id, '_text_field_rgb', esc_attr( $text_field_rgb ) );

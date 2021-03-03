@@ -10,3 +10,82 @@
 
 2021-03-03T09:14:59+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 38
 
+2021-03-03T10:42:06+00:00 CRITICAL syntax error, unexpected '(', expecting variable (T_VARIABLE) in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 5
+
+2021-03-03T10:42:20+00:00 CRITICAL syntax error, unexpected '(', expecting variable (T_VARIABLE) in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 5
+
+2021-03-03T12:06:10+00:00 CRITICAL syntax error, unexpected ';' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 15
+
+2021-03-03T12:31:13+00:00 CRITICAL Uncaught Error: Call to undefined function countstrlen() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): Registration->registration_errors_so_16002591(Object(WP_Error))
+#1 C:\xampp\htdocs\wp1\wp-includes\plugin.php(212): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\user.php(2768): apply_filters('registration_er...', Object(WP_Error), 'rewrew', 'milankovac75@gm...')
+#3 C:\xampp\htdocs\wp1\wp-login.php(1086): register_new_user('rewrew', 'milankovac75@gm...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 15
+
+2021-03-03T12:48:05+00:00 CRITICAL syntax error, unexpected '}', expecting '(' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 24
+
+2021-03-03T12:48:17+00:00 CRITICAL syntax error, unexpected '}', expecting '(' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 24
+
+2021-03-03T12:59:48+00:00 CRITICAL Multiple access type modifiers are not allowed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 12
+
+2021-03-03T13:03:15+00:00 CRITICAL syntax error, unexpected '(', expecting ';' or '{' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 41
+
+2021-03-03T13:03:50+00:00 CRITICAL syntax error, unexpected '(', expecting ';' or '{' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 41
+
+2021-03-03T13:05:04+00:00 CRITICAL Uncaught Error: Call to undefined function condition_for_phone_number() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php:13
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): Registration->validation_for_registration_acf_errors(Object(WP_Error))
+#1 C:\xampp\htdocs\wp1\wp-includes\plugin.php(212): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\user.php(2768): apply_filters('registration_er...', Object(WP_Error), 'rewrew', 'milankovac75@gm...')
+#3 C:\xampp\htdocs\wp1\wp-login.php(1086): register_new_user('rewrew', 'milankovac75@gm...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 13
+
+2021-03-03T13:05:27+00:00 CRITICAL Uncaught Error: Call to undefined function condition_for_phone_number() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php:13
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): Registration->validation_for_registration_acf_errors(Object(WP_Error))
+#1 C:\xampp\htdocs\wp1\wp-includes\plugin.php(212): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\user.php(2768): apply_filters('registration_er...', Object(WP_Error), 'rewrew', 'milankovac75@gm...')
+#3 C:\xampp\htdocs\wp1\wp-login.php(1086): register_new_user('rewrew', 'milankovac75@gm...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 13
+
+2021-03-03T13:05:30+00:00 CRITICAL Uncaught Error: Call to undefined function condition_for_phone_number() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php:13
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): Registration->validation_for_registration_acf_errors(Object(WP_Error))
+#1 C:\xampp\htdocs\wp1\wp-includes\plugin.php(212): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\user.php(2768): apply_filters('registration_er...', Object(WP_Error), 'rewrew', 'milankovac75@gm...')
+#3 C:\xampp\htdocs\wp1\wp-login.php(1086): register_new_user('rewrew', 'milankovac75@gm...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 13
+
+2021-03-03T13:05:57+00:00 CRITICAL Uncaught Error: Call to undefined function condition_for_phone_number() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php:32
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): Registration->validation_for_registration_acf_errors(Object(WP_Error))
+#1 C:\xampp\htdocs\wp1\wp-includes\plugin.php(212): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\user.php(2768): apply_filters('registration_er...', Object(WP_Error), 'rewrew', 'milankovac75@gm...')
+#3 C:\xampp\htdocs\wp1\wp-login.php(1086): register_new_user('rewrew', 'milankovac75@gm...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 32
+
+2021-03-03T13:07:13+00:00 CRITICAL Uncaught Error: Call to undefined function condition_for_phone_number() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php:14
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): Registration->validation_for_registration_acf_errors(Object(WP_Error))
+#1 C:\xampp\htdocs\wp1\wp-includes\plugin.php(212): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\user.php(2768): apply_filters('registration_er...', Object(WP_Error), 'rewrew', 'milankovac75@gm...')
+#3 C:\xampp\htdocs\wp1\wp-login.php(1086): register_new_user('rewrew', 'milankovac75@gm...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 14
+
+2021-03-03T13:07:17+00:00 CRITICAL Uncaught Error: Call to undefined function condition_for_phone_number() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php:14
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): Registration->validation_for_registration_acf_errors(Object(WP_Error))
+#1 C:\xampp\htdocs\wp1\wp-includes\plugin.php(212): WP_Hook->apply_filters(Object(WP_Error), Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\user.php(2768): apply_filters('registration_er...', Object(WP_Error), 'rewrew', 'milankovac75@gm...')
+#3 C:\xampp\htdocs\wp1\wp-login.php(1086): register_new_user('rewrew', 'milankovac75@gm...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 14
+

@@ -85,6 +85,13 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
 /**
  * Task 2
  */
-include "Variation.php";
-$task2=new Variation();
+//include "Variation.php";
+//$task2=new Variation();
+
+/**
+ * Task3
+ */
+include "Registration.php";
+$task3=new Registration();
+
 
