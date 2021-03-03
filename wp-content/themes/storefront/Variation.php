@@ -1,69 +1,71 @@
 <?php
 
-
+/**
+ * Class Variation
+ * Used to add class variations is instantiated in functions.php in line 89
+ */
 class Variation {
 
+	/**
+	 * Variation constructor.
+	 * When an object is created, actions are added
+	 */
+
 	function Variation() {
-		add_action( 'woocommerce_product_after_variable_attributes', array( $this, 'variation_settings_fields_rgb' ), 10, 3 );
+		add_action( 'woocommerce_product_after_variable_attributes', array(
+			$this,
+			'variation_settings_fields_rgb'
+		), 10, 3 );
 
 		add_action( 'woocommerce_save_product_variation', array( $this, 'save_variation_settings_fields_rgb' ), 10, 2 );
-
-		add_filter( 'woocommerce_available_variation', array( $this, 'load_variation_settings_fields_rgb' ) );
-
-		add_action('woocommerce_before_add_to_cart_button',array($this,'display'));
-
-
-
 	}
+
+	/**
+	 * Adds two variations for RGB and text on the product
+	 *
+	 * @param $loop int
+	 * @param $variation_data array
+	 * @param $variation object variation
+	 */
 
 	public function variation_settings_fields_rgb( $loop, $variation_data, $variation ) {
-		global $post;
 		woocommerce_wp_text_input(
 			array(
-				'id'          => $variation->ID ,
-				'label'       => __( 'RGB', 'woocommerce' ),
+				'id'          => '_text_field_rgb[' . $variation->ID . ']',
+				'label'       => __( 'Hoodie RGB', 'woocommerce' ),
 				'placeholder' => '',
 				'desc_tip'    => 'true',
-				'value'       => get_post_meta( $variation->ID, '_text_field', true )
+				'value'       => get_post_meta( $variation->ID, '_text_field_rgb', true ),
+				'wrapper_class'       => 'form-field  form-row form-row-first'
 			)
 		);
-
+		woocommerce_wp_text_input(
+			array(
+				'id'          => '_text_on_hoodie[' . $variation->ID . ']',
+				'label'       => __( 'Hoodie text', 'woocommerce' ),
+				'placeholder' => '',
+				'desc_tip'    => 'true',
+				'value'       => get_post_meta( $variation->ID, '_text_on_hoodie', true ),
+				'wrapper_class'      => 'form-field  form-row form-row-last'
+			)
+		);
 	}
+
+	/**Saves variation values if it is not an empty field
+	 *
+	 * @param $post_id int
+	 */
 
 	public function save_variation_settings_fields_rgb( $post_id ) {
-		$text_field = $_POST['_text_field'][ $post_id ];
-		if ( ! empty( $text_field ) ) {
-			update_post_meta( $post_id, '_text_field', esc_attr( $text_field ));
+		$text_field_rgb = $_POST['_text_field_rgb'][ $post_id ];
+		if ( ! empty( $text_field_rgb ) ) {
+			update_post_meta( $post_id, '_text_field_rgb', esc_attr( $text_field_rgb ) );
+		}
+		$text_field_on_hoodie = $_POST['_text_on_hoodie'][ $post_id ];
+		if ( ! empty( $text_field_on_hoodie ) ) {
+			update_post_meta( $post_id, '_text_on_hoodie', esc_attr( $text_field_on_hoodie ) );
 		}
 	}
-
-	public function load_variation_settings_fields_rgb( $variations ) {
-		$variations['text_field'] = get_post_meta( $variations['variation_id'], '_text_field', true );
-		return $variations;
-	}
-
-public function display() {
-	$args       = array(
-		'post_type'   => 'product_variation',
-	);
-
-	$variations = get_posts( $args );
-
-	foreach ( $variations as $variation ) {
-
-		$variation_ID = $variation->ID;
-
-		$product_variation = new WC_Product_Variation( $variation_ID );
-
-		get_post_meta( $variation_ID, '_text_field', true );
-		var_dump(get_post_meta( $variation_ID, '_text_field', true ));
-
-	}
-}
-
-
-
-
 }
 
 

@@ -1,0 +1,12 @@
+2021-03-03T08:34:21+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 64
+
+2021-03-03T08:48:08+00:00 CRITICAL syntax error, unexpected '{', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 41
+
+2021-03-03T08:48:28+00:00 CRITICAL syntax error, unexpected '{', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 41
+
+2021-03-03T08:48:29+00:00 CRITICAL syntax error, unexpected '{', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 41
+
+2021-03-03T08:48:29+00:00 CRITICAL syntax error, unexpected '{', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 41
+
+2021-03-03T09:14:59+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Variation.php on line 38
+
