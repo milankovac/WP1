@@ -89,3 +89,18 @@ Stack trace:
 #4 {main}
   thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 14
 
+2021-03-03T15:05:52+00:00 CRITICAL syntax error, unexpected ',' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 110
+
+2021-03-03T15:06:16+00:00 CRITICAL syntax error, unexpected ',' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 110
+
+2021-03-03T15:38:09+00:00 CRITICAL Uncaught Error: Call to undefined function wp_get_current_user_id() in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\myaccount\form-edit-account.php:65
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include()
+#1 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-my-account.php(160): wc_get_template('myaccount/form-...', Array)
+#2 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3195): WC_Shortcode_My_Account::edit_account()
+#3 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_account_edit_account('')
+#4 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#5 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3076): do_action('woocommerce_acc...', '')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook. in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\myaccount\form-edit-account.php on line 65
+
