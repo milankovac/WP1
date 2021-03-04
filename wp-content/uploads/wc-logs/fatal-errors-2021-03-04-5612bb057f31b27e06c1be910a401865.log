@@ -1,0 +1,37 @@
+2021-03-04T09:52:31+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 123
+
+2021-03-04T09:53:07+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 123
+
+2021-03-04T10:00:35+00:00 CRITICAL Uncaught Error: Call to undefined function dd_action() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php:21
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(95): Registration->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 21
+
+2021-03-04T10:00:38+00:00 CRITICAL Uncaught Error: Call to undefined function dd_action() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php:21
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(95): Registration->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 21
+
+2021-03-04T10:28:05+00:00 CRITICAL Uncaught Error: Call to undefined function condition_for_phone_number() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php:135
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): Registration->acf_field_edit_account_errors_and_update(Object(WP_Error))
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(551): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-form-handler.php(315): do_action_ref_array('woocommerce_sav...', Array)
+#4 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): WC_Form_Handler::save_account_details('')
+#5 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#7 C:\xampp\htdocs\wp1\wp-includes\template-loader.php(13): do_action('template_redire...')
+#8 C:\xampp\htdocs\wp1\wp-blog-header.php(19): requir in C:\xampp\htdocs\wp1\wp-content\themes\storefront\Registration.php on line 135
+
