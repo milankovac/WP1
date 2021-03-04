@@ -127,7 +127,7 @@ class Registration {
 	 * @param $args
 	 */
 
-	
+
 	public function acf_field_edit_account_errors_and_update( $args ) {
 
 		if ( isset( $_POST['number'] ) ) {
@@ -145,6 +145,7 @@ class Registration {
 			} else {
 				update_user_meta( wp_get_current_user()->ID, 'birth_year', sanitize_text_field( $_POST['birthday'] ) );
 			}
+			
 		}
 	}
 }
