@@ -77,6 +77,13 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
 //}
 //
 //add_action( 'wp_enqueue_scripts', 'register_script' );
+function register_script() {
+
+	wp_enqueue_script( 'task-ajax', get_template_directory_uri() . '/ajax2.js', array( 'jquery' ) );
+	wp_localize_script( 'task-ajax', 'tasksLocalized', array( 'Ajaxurl' => admin_url( 'admin-ajax.php' ) ) );
+}
+
+add_action( 'wp_enqueue_scripts', 'register_script' );
 /**
  * Task 1
  */
@@ -91,7 +98,12 @@ if ( version_compare( get_bloginfo( 'version' ), '4.7.3', '>=' ) && ( is_admin()
 /**
  * Task3
  */
-include "Registration.php";
-$task3=new Registration();
+//include "Registration.php";
+//$task3=new Registration();
+/**
+ * Task 4
+ */
+include "CSV.php";
+$task4=new CSV();
 
 
