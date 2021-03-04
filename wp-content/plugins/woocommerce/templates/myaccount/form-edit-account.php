@@ -15,6 +15,7 @@
  * @version 3.5.0
  */
 
+
 defined( 'ABSPATH' ) || exit;
 
 do_action( 'woocommerce_before_edit_account_form' ); ?>
@@ -59,6 +60,10 @@ do_action( 'woocommerce_before_edit_account_form' ); ?>
 			<label for="password_2"><?php esc_html_e( 'Confirm new password', 'woocommerce' ); ?></label>
 			<input type="password" class="woocommerce-Input woocommerce-Input--password input-text" name="password_2" id="password_2" autocomplete="off" />
 		</p>
+        <p class="woocommerce-form-row woocommerce-form-row--wide form-row form-row-wide">
+            <label for="phone_number"><?php esc_html_e( 'Confirm new password', 'woocommerce' ); ?></label>
+            <input type="phone_number" class="woocommerce-Input woocommerce-Input--password input-text" name="phone_number" id="phone_number" autocomplete="off" value="<?php echo get_field('phone_number',wp_get_current_user()) ?>" />
+        </p>
 	</fieldset>
 	<div class="clear"></div>
 
@@ -70,7 +75,6 @@ do_action( 'woocommerce_before_edit_account_form' ); ?>
 		<input type="hidden" name="action" value="save_account_details" />
 	</p>
 
-	<?php do_action( 'woocommerce_edit_account_form_end' ); ?>
 </form>
-
+<?php echo get_field('phone_number',wp_get_current_user())  ?>
 <?php do_action( 'woocommerce_after_edit_account_form' ); ?>
