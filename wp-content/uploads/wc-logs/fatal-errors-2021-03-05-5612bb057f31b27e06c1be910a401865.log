@@ -1,0 +1,210 @@
+2021-03-05T07:58:01+00:00 CRITICAL Uncaught Error: Call to a member function get_data() on array in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php:62
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php(42): CSV->generate_csv()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): CSV->on_woocommerce_before_add_to_cart_button('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(33): do_action('woocommerce_aft...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2976): wc_get_template('single-product/...')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_single_variation_add_to_cart_but in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 62
+
+2021-03-05T07:58:27+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::get_atributes() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php:58
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php(42): CSV->generate_csv()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): CSV->on_woocommerce_before_add_to_cart_button('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(33): do_action('woocommerce_aft...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2976): wc_get_template('single-product/...')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_single_variation in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 58
+
+2021-03-05T08:15:04+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 62
+
+2021-03-05T08:15:08+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 62
+
+2021-03-05T08:17:09+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 62
+
+2021-03-05T08:25:48+00:00 CRITICAL Uncaught Error: Call to a member function get_available_variations() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php:57
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php(18): CSV->generate_csv()
+#1 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(107): CSV->__construct()
+#2 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 57
+
+2021-03-05T08:27:07+00:00 CRITICAL Uncaught Error: Call to a member function get_available_variations() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php:57
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php(18): CSV->generate_csv()
+#1 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(107): CSV->__construct()
+#2 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 57
+
+2021-03-05T08:31:27+00:00 CRITICAL Uncaught Error: Call to a member function get_available_variations() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php:57
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php(18): CSV->generate_csv()
+#1 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(107): CSV->__construct()
+#2 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 57
+
+2021-03-05T08:32:35+00:00 CRITICAL Uncaught Error: Call to a member function get_available_variations() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php:20
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(107): CSV->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 20
+
+2021-03-05T08:36:44+00:00 CRITICAL Uncaught Error: Call to a member function get_children() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php:77
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php(42): CSV->generate_csv()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): CSV->on_woocommerce_before_add_to_cart_button('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(33): do_action('woocommerce_aft...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2976): wc_get_template('single-product/...')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_single_variation_add_to_cart_ in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 77
+
+2021-03-05T08:59:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function CSV::if_variation_exists(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 73 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php:86
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php(73): CSV->if_variation_exists()
+#1 C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php(51): CSV->generate_csv()
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): CSV->on_woocommerce_before_add_to_cart_button('')
+#3 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(33): do_action('woocommerce_aft...')
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdoc in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 86
+
+2021-03-05T09:00:15+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function CSV::send_param(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 21 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php:103
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php(21): CSV->send_param()
+#1 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(107): CSV->__construct()
+#2 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 103
+
+2021-03-05T09:17:33+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-includes\plugin.php on line 188
+
+2021-03-05T09:17:43+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-includes\load.php on line 1090
+
+2021-03-05T09:18:23+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-attribute-functions.php on line 173
+
+2021-03-05T10:27:13+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 84
+
+2021-03-05T10:28:40+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 84
+
+2021-03-05T10:29:14+00:00 CRITICAL syntax error, unexpected 'return' (T_RETURN) in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 84
+
+2021-03-05T10:45:03+00:00 CRITICAL Uncaught Error: Call to a member function get_children() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php:29
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(107): CSV->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 29
+
+2021-03-05T10:51:26+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ';' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 87
+
+2021-03-05T11:00:08+00:00 CRITICAL Uncaught Error: Call to a member function get_available_variations() on bool in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php:66
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php(26): CSV->generate_csv()
+#1 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(107): CSV->__construct()
+#2 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 66
+
+2021-03-05T11:31:34+00:00 CRITICAL Uncaught Error: Call to undefined function vard_dump() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php:77
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php(37): CSV->generate_csv()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): CSV->on_woocommerce_before_add_to_cart_button('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(33): do_action('woocommerce_aft...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2976): wc_get_template('single-product/...')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_single_variation_add_to_cart_button('') in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 77
+
+2021-03-05T11:46:42+00:00 CRITICAL Uncaught Error: Call to a member function get_available_variations() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php:50
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php(82): CSV->generate_csv()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): CSV->init_header('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-settings.php(557): do_action('init')
+#5 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#8 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#9 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 50
+
+2021-03-05T11:49:31+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 38
+
+2021-03-05T13:33:51+00:00 CRITICAL syntax error, unexpected '{', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 67
+
+2021-03-05T14:15:26+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 62
+
+2021-03-05T14:15:58+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 62
+
+2021-03-05T14:59:05+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function get_the_terms(), 1 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 28 and exactly 2 expected in C:\xampp\htdocs\wp1\wp-includes\category-template.php:1271
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php(28): get_the_terms(11)
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): CSV->on_woocommerce_before_add_to_cart_button('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(33): do_action('woocommerce_aft...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2976): wc_get_template('single-pro in C:\xampp\htdocs\wp1\wp-includes\category-template.php on line 1271
+
+2021-03-05T15:01:12+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Variable::get_atribute() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php:28
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): CSV->on_woocommerce_before_add_to_cart_button('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(33): do_action('woocommerce_aft...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(2976): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_single_variation_add_to_cart_button('')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_ in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 28
+
+2021-03-05T15:01:29+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function WC_Product::get_attribute(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php on line 28 and exactly 1 expected in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php:1927
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\CSV.php(28): WC_Product->get_attribute()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): CSV->on_woocommerce_before_add_to_cart_button('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\variation-add-to-cart-button.php(33): do_action('woocommerce_aft...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\include in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-product.php on line 1927
+
