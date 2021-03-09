@@ -23,3 +23,19 @@ Stack trace:
 
 2021-03-09T10:37:31+00:00 CRITICAL syntax error, unexpected 'foreach' (T_FOREACH) in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CustomApi.php on line 24
 
+2021-03-09T12:50:54+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\OptionURL.php on line 11
+
+2021-03-09T12:50:54+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\OptionURL.php on line 11
+
+2021-03-09T12:51:10+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\OptionURL.php on line 11
+
+2021-03-09T12:53:06+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\OptionURL.php on line 15
+
+2021-03-09T12:53:11+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\OptionURL.php on line 15
+
+2021-03-09T12:53:21+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\OptionURL.php on line 15
+
+2021-03-09T12:53:41+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\OptionURL.php on line 15
+
+2021-03-09T12:53:56+00:00 CRITICAL syntax error, unexpected '}' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\OptionURL.php on line 15
+
