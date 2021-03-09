@@ -32,7 +32,11 @@ class GlobalCSV {
 		$row   = array();
 		$row[] = "ID,NAME,SKU,CATEGORIES";
 		global $wpdb;
-		$results = $wpdb->get_results( "SELECT ID,post_title FROM wp_posts WHERE post_type LIKE 'product'" );
+		//$results = $wpdb->get_results( "SELECT ID,post_title FROM wp_posts WHERE post_type LIKE 'product'" );
+		$results=get_posts(array('numberposts'      => -1,
+		                         'post_type'        => 'product',
+		));
+
 		foreach ( $results as $result ) {
 
 			$row_value  = '';

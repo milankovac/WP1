@@ -108,14 +108,12 @@ add_action( 'wp_enqueue_scripts', 'register_script' );
 /**
  * Task5
  */
-include "GlobalCSV.php";
-$task5=new GlobalCSV();
+//include "GlobalCSV.php";
+//$task5=new GlobalCSV();
+/**
+ * Task6
+ */
+include "CustomApi.php";
+$task6=new CustomApi();
 
 
-
-//echo"<pre>";
-
-//global $wpdb;
-//$results=$wpdb->get_results("SELECT product_id,sku FROM wp_wc_product_meta_lookup");
-//var_dump($results);
-//echo"</pre>";

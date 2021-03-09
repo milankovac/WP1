@@ -17,3 +17,9 @@ Stack trace:
 #5 {main}
   thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\GlobalCSV.php on line 50
 
+2021-03-09T10:37:04+00:00 CRITICAL syntax error, unexpected 'foreach' (T_FOREACH) in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CustomApi.php on line 24
+
+2021-03-09T10:37:27+00:00 CRITICAL syntax error, unexpected 'foreach' (T_FOREACH) in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CustomApi.php on line 24
+
+2021-03-09T10:37:31+00:00 CRITICAL syntax error, unexpected 'foreach' (T_FOREACH) in C:\xampp\htdocs\wp1\wp-content\themes\storefront\CustomApi.php on line 24
+
