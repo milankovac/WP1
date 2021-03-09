@@ -11,8 +11,9 @@ class GlobalCSV {
 	 * GlobalCSV constructor.
 	 */
 	public function __construct() {
-		add_action( 'all_product_csv', array( $this, 'on_all_product_csv' ) );
+		//add_action( 'all_product_csv', array( $this, 'on_all_product_csv' ) );
 		add_action( 'admin_init', array( $this, 'on_admin_init' ) );
+		add_action( 'admin_enqueue_scripts',array($this,'register_script') );
 
 	}
 
@@ -75,6 +76,13 @@ class GlobalCSV {
 			exit;
 		}
 	}
+	function register_script() {
+
+		wp_enqueue_script( 'all-products', get_template_directory_uri() . '/allProducts.js', array( 'jquery' ) );
+
+	}
+
+
 
 
 }
