@@ -84,6 +84,7 @@ function register_script() {
 }
 
 add_action( 'wp_enqueue_scripts', 'register_script' );
+
 /**
  * Task 1
  */
@@ -94,7 +95,6 @@ add_action( 'wp_enqueue_scripts', 'register_script' );
  */
 //include "Variation.php";
 //$task2=new Variation();
-
 /**
  * Task3
  */
@@ -113,7 +113,13 @@ add_action( 'wp_enqueue_scripts', 'register_script' );
 /**
  * Task6
  */
-include "CustomApi.php";
-$task6=new CustomApi();
+//include "CustomApi.php";
+//$task6=new CustomApi();
+
+/**
+ * Task 7
+ */
+//include "OptionURL.php";
+//$task7=new  OptionURL();
 
 
