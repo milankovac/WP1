@@ -12,16 +12,15 @@ class CSV {
 	/**
 	 * CSV constructor.
 	 */
-
 	public function __construct() {
 		add_action( 'woocommerce_after_add_to_cart_button', array($this, 'on_woocommerce_before_add_to_cart_button' ));
 		add_action( 'init', array( $this, 'on_init' ) );
+
 	}
 
 	/**
 	 * If the product is variable, a button will appear on that side
 	 */
-
 	public function on_woocommerce_before_add_to_cart_button() {
 		global $product;
 
@@ -30,9 +29,9 @@ class CSV {
 			$url = get_permalink() . "?download={$product_id}&&name={$product->name}";
 
 			echo "<br><br><a  class='button alt' style='text-decoration: none;color: white' href='{$url}' ;>Download</a>";
-		} else {
-			echo '';
 		}
+
+
 	}
 
 	/**
@@ -40,7 +39,6 @@ class CSV {
 	 * Returns table values
 	 * @return string
 	 */
-
 	public function generate_csv() {
 
 		$product = wc_get_product( $_GET['download']);
@@ -72,19 +70,22 @@ class CSV {
 	/**
 	 *If someone clicks the download button, the file download will start
 	 */
-
 	public function on_init() {
 
-		if ( isset( $_GET['download'] ) ) {
+        $url=$_SERVER['REQUEST_URI'];
+		if ( isset( $_GET['download'] )&&strpos($url,'product')) {
+
+           $name=filter_input(INPUT_GET,'name');
 
 			$csv = $this->generate_csv();
 			header( "Content-Type: text/csv" );
-			header( "Content-Disposition: attachment; filename={$_GET['name']}.csv" );
+			header( "Content-Disposition: attachment; filename={$name}.csv" );
 			header( "Cache-Control: no-cache, no-store, must-revalidate" );
 			header( "Pragma: no-cache" );
 			header( "Expires: 0" );
 			header( "Content-Transfer-Encoding: UTF-8" );
 			echo $csv;
+
 			exit;
 		}
 	}

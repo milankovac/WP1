@@ -103,7 +103,17 @@ add_action( 'wp_enqueue_scripts', 'register_script' );
 /**
  * Task 4
  */
-include "CSV.php";
-$task4=new CSV();
+//include "CSV.php";
+//$task4=new CSV();
+/**
+ * Task5
+ */
+//include "GlobalCSV.php";
+//$task5=new GlobalCSV();
+/**
+ * Task6
+ */
+include "CustomApi.php";
+$task6=new CustomApi();
 
 
