@@ -108,8 +108,8 @@ add_action( 'wp_enqueue_scripts', 'register_script' );
 /**
  * Task5
  */
-//include "GlobalCSV.php";
-//$task5=new GlobalCSV();
+include "GlobalCSV.php";
+$task5=new GlobalCSV();
 /**
  * Task6
  */
