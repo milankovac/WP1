@@ -397,6 +397,7 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 <h1 class="wp-heading-inline">
 <?php
 echo esc_html( $post_type_object->labels->name );
+do_action('all_product_csv');
 ?>
 </h1>
 
