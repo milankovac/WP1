@@ -108,8 +108,8 @@ add_action( 'wp_enqueue_scripts', 'register_script' );
 /**
  * Task5
  */
-include "GlobalCSV.php";
-$task5=new GlobalCSV();
+//include "GlobalCSV.php";
+//$task5=new GlobalCSV();
 /**
  * Task6
  */
@@ -121,5 +121,13 @@ $task5=new GlobalCSV();
  */
 //include "OptionURL.php";
 //$task7=new  OptionURL();
+/**
+ * Task8
+ */
+
+
+include "TextOnProduct.php";
+$task8 = new TextOnProduct();
+
 
 
