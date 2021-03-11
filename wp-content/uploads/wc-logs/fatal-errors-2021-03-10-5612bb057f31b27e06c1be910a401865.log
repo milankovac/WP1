@@ -1,0 +1,137 @@
+2021-03-10T08:40:30+00:00 CRITICAL syntax error, unexpected 'pubilic' (T_STRING), expecting function (T_FUNCTION) or const (T_CONST) in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 9
+
+2021-03-10T09:29:14+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function TextOnProduct::storage_in_the_meta_field(), 0 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 21 and exactly 2 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:25
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php(21): TextOnProduct->storage_in_the_meta_field()
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->on_woocommerce_before_add_to_cart_quantity('')
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(36): do_action('woocommerce_bef...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocomme in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 25
+
+2021-03-10T09:42:00+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:15
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(128): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 15
+
+2021-03-10T09:44:04+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->on_woocommerce_before_add_to_cart_quantity('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(36): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1625): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_simple_add_to_cart('')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+# in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 23
+
+2021-03-10T09:44:22+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:23
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->on_woocommerce_before_add_to_cart_quantity('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(36): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1625): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_simple_add_to_cart('')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+# in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 23
+
+2021-03-10T09:46:13+00:00 CRITICAL Uncaught Error: Call to a member function get_items() on bool in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:24
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->on_woocommerce_before_add_to_cart_quantity('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(36): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1625): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_simple_add_to_cart('')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+# in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 24
+
+2021-03-10T09:59:49+00:00 CRITICAL Uncaught Error: Call to undefined function example_get_orders_by_product() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:25
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->on_woocommerce_before_add_to_cart_quantity('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(36): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1625): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_simple_add_to_cart('')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 25
+
+2021-03-10T10:00:04+00:00 CRITICAL Uncaught Error: Call to undefined function get_orders_by_product() in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:25
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->on_woocommerce_before_add_to_cart_quantity('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(36): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1625): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_simple_add_to_cart('')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Arr in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 25
+
+2021-03-10T10:08:44+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function TextOnProduct::wdm_add_values_to_order_item_meta(), 1 passed in C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php on line 287 and exactly 2 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:29
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->wdm_add_values_to_order_item_meta('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-settings.php(557): do_action('init')
+#4 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 29
+
+2021-03-10T10:14:05+00:00 CRITICAL syntax error, unexpected '}', expecting variable (T_VARIABLE) in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 37
+
+2021-03-10T11:53:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function TextOnProduct::wdm_add_values_to_order_item_meta(), 1 passed in C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php on line 287 and exactly 4 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:31
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->wdm_add_values_to_order_item_meta('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-settings.php(557): do_action('init')
+#4 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-cron.php(44): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 31
+
+2021-03-10T11:53:51+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function TextOnProduct::wdm_add_values_to_order_item_meta(), 1 passed in C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php on line 287 and exactly 4 expected in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:31
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->wdm_add_values_to_order_item_meta('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-settings.php(557): do_action('init')
+#4 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 31
+
+2021-03-10T11:59:47+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 12
+
+2021-03-10T13:32:57+00:00 CRITICAL syntax error, unexpected '}', expecting ';' or ',' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 45
+
+2021-03-10T14:28:32+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function add_action(), 1 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 24 and at least 2 expected in C:\xampp\htdocs\wp1\wp-includes\plugin.php:409
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php(24): add_action('woocommerce_car...')
+#1 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(128): TextOnProduct->__construct()
+#2 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-includes\plugin.php on line 409
+

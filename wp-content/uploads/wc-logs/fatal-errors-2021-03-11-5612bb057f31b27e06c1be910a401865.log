@@ -1,0 +1,420 @@
+2021-03-11T08:07:11+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 129
+
+2021-03-11T08:07:25+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php:128
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-settings.php(525): include()
+#1 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 128
+
+2021-03-11T08:10:57+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on bool in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php:128
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-settings.php(525): include()
+#1 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 128
+
+2021-03-11T08:11:49+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php:129
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-settings.php(525): include()
+#1 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 129
+
+2021-03-11T08:11:50+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php:129
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-settings.php(525): include()
+#1 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 129
+
+2021-03-11T08:11:55+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php:129
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-settings.php(525): include()
+#1 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 129
+
+2021-03-11T08:12:11+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php:129
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-settings.php(525): include()
+#1 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#4 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php on line 129
+
+2021-03-11T08:15:25+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 11
+
+2021-03-11T08:15:41+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 11
+
+2021-03-11T08:15:50+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:11
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 11
+
+2021-03-11T08:17:42+00:00 CRITICAL Uncaught Error: Call to a member function get_id() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:12
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 12
+
+2021-03-11T09:17:11+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:28
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 28
+
+2021-03-11T09:17:43+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:28
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 28
+
+2021-03-11T09:18:28+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php:73
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_cart_from_session('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-settings.php(579): do_action('wp_loaded')
+#4 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-cron.php(44): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php on line 73
+
+2021-03-11T09:19:44+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php:73
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_cart_from_session('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-settings.php(579): do_action('wp_loaded')
+#4 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-cron.php(44): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php on line 73
+
+2021-03-11T09:20:44+00:00 CRITICAL Uncaught Error: Call to a member function get() on null in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php:73
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): WC_Cart_Session->get_cart_from_session('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-settings.php(579): do_action('wp_loaded')
+#4 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\wp1\wp-cron.php(44): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-cart-session.php on line 73
+
+2021-03-11T10:20:30+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart() on array in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:79
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->on_woocommerce_before_add_to_cart_quantity('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(36): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1625): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_simple_add_to_cart('')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 79
+
+2021-03-11T10:21:04+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart() on array in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:80
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->on_woocommerce_before_add_to_cart_quantity('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(36): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1625): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_simple_add_to_cart('')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 80
+
+2021-03-11T10:21:26+00:00 CRITICAL Uncaught Error: Call to a member function add_to_cart() on array in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:79
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->on_woocommerce_before_add_to_cart_quantity('')
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\single-product\add-to-cart\simple.php(36): do_action('woocommerce_bef...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-core-functions.php(345): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(1625): wc_get_template('single-product/...')
+#6 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): woocommerce_simple_add_to_cart('')
+#7 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 79
+
+2021-03-11T10:25:57+00:00 CRITICAL syntax error, unexpected '->' (T_OBJECT_OPERATOR) in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 79
+
+2021-03-11T10:27:55+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 79
+
+2021-03-11T12:08:26+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:64
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 64
+
+2021-03-11T12:08:27+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:64
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 64
+
+2021-03-11T12:08:27+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:64
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 64
+
+2021-03-11T12:08:46+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:64
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-admin\admin.php(34): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\wp-admin\post.php(12): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 64
+
+2021-03-11T12:19:26+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wc_get_order_item_meta(), 1 passed in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 141 and at least 2 expected in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-order-item-functions.php:165
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php(141): wc_get_order_item_meta(46)
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->on_woocommerce_before_order_itemmeta(46, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#2 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#3 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\admin\meta-boxes\views\html-order-item.php(43): do_action('woocommerce_bef...', 46, Object(WC_Order_Item_Product), Object(WC_Product_Simple))
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\a in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-order-item-functions.php on line 165
+
+2021-03-11T12:20:01+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 141
+
+2021-03-11T12:20:02+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 141
+
+2021-03-11T12:20:02+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 141
+
+2021-03-11T12:21:11+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 141
+
+2021-03-11T12:21:12+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 141
+
+2021-03-11T12:21:12+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 141
+
+2021-03-11T12:27:17+00:00 CRITICAL syntax error, unexpected ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 141
+
+2021-03-11T13:07:14+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on string in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:131
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): TextOnProduct->wdm_add_values_to_order_item_meta(60, Array)
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-deprecated-action-hooks.php(159): do_action('woocommerce_add...', 60, Array, '5f1bfe3869c186d...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-deprecated-action-hooks.php(107): WC_Deprecated_Action_Hooks->trigger_hook('woocommerce_add...', Array)
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-deprecated-hooks.php(75): WC_Deprecated_Action_Hooks->handle_deprecated_hook('woocommerce_new...', 'woocommerce_add...', Array, 60)
+#6 C:\xampp\htdocs\w in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 131
+
+2021-03-11T13:07:21+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on string in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:131
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): TextOnProduct->wdm_add_values_to_order_item_meta(61, Array)
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-deprecated-action-hooks.php(159): do_action('woocommerce_add...', 61, Array, '5f1bfe3869c186d...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-deprecated-action-hooks.php(107): WC_Deprecated_Action_Hooks->trigger_hook('woocommerce_add...', Array)
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-deprecated-hooks.php(75): WC_Deprecated_Action_Hooks->handle_deprecated_hook('woocommerce_new...', 'woocommerce_add...', Array, 61)
+#6 C:\xampp\htdocs\w in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 131
+
+2021-03-11T13:08:24+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on string in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:130
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): TextOnProduct->wdm_add_values_to_order_item_meta(63, Array)
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-deprecated-action-hooks.php(159): do_action('woocommerce_add...', 63, Array, '1831bcdd60940e3...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-deprecated-action-hooks.php(107): WC_Deprecated_Action_Hooks->trigger_hook('woocommerce_add...', Array)
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-deprecated-hooks.php(75): WC_Deprecated_Action_Hooks->handle_deprecated_hook('woocommerce_new...', 'woocommerce_add...', Array, 63)
+#6 C:\xampp\htdocs\w in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 130
+
+2021-03-11T13:13:39+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:131
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(289): TextOnProduct->wdm_add_values_to_order_item_meta(64, Array)
+#1 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 C:\xampp\htdocs\wp1\wp-includes\plugin.php(484): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-deprecated-action-hooks.php(159): do_action('woocommerce_add...', 64, Array, '1831bcdd60940e3...')
+#4 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-deprecated-action-hooks.php(107): WC_Deprecated_Action_Hooks->trigger_hook('woocommerce_add...', Array)
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-deprecated-hooks.php(75): WC_Deprecated_Action_Hooks->handle_deprecated_hook('woocommerce_new...', 'woocommerce_add...', Array, 64)
+#6 C:\xampp\htdocs\wp1 in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 131
+
+2021-03-11T13:14:22+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:65
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 65
+
+2021-03-11T13:14:32+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:65
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 65
+
+2021-03-11T13:14:33+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:65
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 65
+
+2021-03-11T13:14:55+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:65
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 65
+
+2021-03-11T13:14:57+00:00 CRITICAL Uncaught Error: Call to a member function get_meta() on bool in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:65
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 65
+
+2021-03-11T13:16:04+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:66
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 66
+
+2021-03-11T13:16:06+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:66
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 66
+
+2021-03-11T13:32:13+00:00 CRITICAL syntax error, unexpected '''' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ',' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 87
+
+2021-03-11T13:33:37+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php:63
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\themes\storefront\functions.php(130): TextOnProduct->__construct()
+#1 C:\xampp\htdocs\wp1\wp-settings.php(525): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\wp1\wp-config.php(91): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\wp1\wp-load.php(37): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\wp1\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wp1\index.php(17): require('C:\\xampp\\htdocs...')
+#6 {main}
+  thrown in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 63
+
+2021-03-11T13:42:02+00:00 CRITICAL syntax error, unexpected 's' (T_STRING), expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 72
+
+2021-03-11T13:42:03+00:00 CRITICAL syntax error, unexpected 's' (T_STRING), expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 72
+
+2021-03-11T13:42:03+00:00 CRITICAL syntax error, unexpected 's' (T_STRING), expecting ')' in C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php on line 72
+
+2021-03-11T14:08:26+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(114): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php(91): WC_Abstract_Order->__construct(7)
+#3 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->on_woocommerce_get_item_data(Array, Array)
+#4 C:\xampp\htdocs\wp1\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3652): apply_filters('woocommerce_get...', Array, Array)
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\cart\cart.php(88): wc_get_formatted_cart_item_ in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 104
+
+2021-03-11T14:09:10+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(114): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php(91): WC_Abstract_Order->__construct(7)
+#3 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->on_woocommerce_get_item_data(Array, Array)
+#4 C:\xampp\htdocs\wp1\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3652): apply_filters('woocommerce_get...', Array, Array)
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\cart\cart.php(88): wc_get_formatted_cart_item_ in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 104
+
+2021-03-11T14:09:45+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(114): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php(91): WC_Abstract_Order->__construct(7)
+#3 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->on_woocommerce_get_item_data(Array, Array)
+#4 C:\xampp\htdocs\wp1\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3652): apply_filters('woocommerce_get...', Array, Array)
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\cart\cart.php(88): wc_get_formatted_cart_item_ in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 104
+
+2021-03-11T14:09:46+00:00 CRITICAL Uncaught Exception: Invalid order. in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:104
+Stack trace:
+#0 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(114): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\wp1\wp-content\themes\storefront\TextOnProduct.php(91): WC_Abstract_Order->__construct(7)
+#3 C:\xampp\htdocs\wp1\wp-includes\class-wp-hook.php(287): TextOnProduct->on_woocommerce_get_item_data(Array, Array)
+#4 C:\xampp\htdocs\wp1\wp-includes\plugin.php(212): WP_Hook->apply_filters(Array, Array)
+#5 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\wc-template-functions.php(3652): apply_filters('woocommerce_get...', Array, Array)
+#6 C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\templates\cart\cart.php(88): wc_get_formatted_cart_item_ in C:\xampp\htdocs\wp1\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php on line 104
+
